@@ -13,7 +13,7 @@ When using this hook the script will tell you what to do to complete the **DNS-0
 
 
 ## Example run
-``
+```
 ./dehydrated --challenge dns-01 --hook hook.sh --signcsr csr.pem
 #
 # !! WARNING !! No main config file found, using default config!
@@ -46,7 +46,7 @@ thK8wd9TGootJEI0RP118rG8Yn6vhgjsokGIkn4LWBIBkUcvAfJxH0rTyDDUTgYs
 6tTMeaOh7D7TiO6uCXzBP12jw9HHNDwnENyJ2TlWEIa3t9bKFNMVKptAVJPgzHDk
 c7ioHWFW4KtikrMsioo3HKHcmQFniPSYmNJeaH2LLKVWoI5w8XHG7i8dzcFDhGKF
 -----END CERTIFICATE-----
-``
+```
 
 ## More info
 
