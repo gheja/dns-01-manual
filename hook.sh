@@ -33,7 +33,6 @@ case "$1" in
 	;;
 	*)
 		echo "Unknown hook \"${1}\""
-		exit 1
 	;;
 esac
 
