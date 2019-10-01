@@ -25,11 +25,17 @@ case "$1" in
 		read tmp
 		echo ""
 	;;
+	"sync_cert")
+		# do nothing for now
+	;;
 	"deploy_cert")
 		# do nothing for now
 	;;
 	"unchanged_cert")
 		# do nothing for now
+	;;
+	"exit_hook")
+		echo "${2:-}"
 	;;
 	*)
 		echo "Unknown hook \"${1}\""
